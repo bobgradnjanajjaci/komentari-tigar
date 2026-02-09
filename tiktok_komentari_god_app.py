@@ -25,7 +25,7 @@ COMMENTS_SET_1 = [
 HTML = """
 <!doctype html><html><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Peakerr TikTok Custom Comments</title>
+<title>TIGAR TikTok Custom Comments</title>
 <style>
 body{background:#050816;color:#fff;font-family:system-ui;margin:0;padding:20px}
 .card{max-width:900px;margin:0 auto;background:rgba(15,23,42,.95);padding:18px;border-radius:14px;border:1px solid rgba(148,163,184,.25)}
@@ -203,4 +203,5 @@ def status(job_id):
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
+
 
